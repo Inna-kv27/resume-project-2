@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background: #f6f6fa;
     padding: 40px;
@@ -12,9 +17,10 @@ ul, ol {
 .wrapper {
     background: #ffffff;
     display: flex;
-    flex-direction: row-reverse;
-    max-width: 1200px;
+    flex-direction: column;
+    width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 
@@ -27,85 +33,7 @@ ul, ol {
     box-sizing: border-box;
 }
 
-
-/* ----------Sidebar------------ */
-.sidebar {
-    background: #e0ebfe;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    width: 370px;
-}
-
-.sidebar-content {
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
-}
-
-/* -----Contacts------- */
-.contacts-container {
-    margin-bottom: 40px;
-}
-
-.contacts-title {
-    font-weight: 700;
-    font-size: 22px;
-    color: #161d2a;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
-}
-
-.contacts-type {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161d2a;
-    margin-right: 8px;
-}
-
-.contacts-link {
-    font-weight: 400;
-    font-size: 14px; 
-    line-height: 24px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #2979ff;
-}
-
-.contacts-item {
-    margin-top: 0;
-    margin-bottom: 4px;
-}
-
-/* ----Tech Skills------ */
-
-.skills-container {
-    margin-bottom: 40px;
-}
-
-.skills-titl {
-    font-weight: 700;
-    font-size: 22px;
-    color: #161d2a;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
-}
-
-.skills-list {
-    padding-left: 20px;
-}
-.skills-list-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #161d2a;
-}
-
-/* ---- My info ----- */
+/* -----------My info------------- */
 
 .my-info{
     margin-bottom: 40px;
@@ -127,6 +55,8 @@ ul, ol {
     color: #000;
     margin-top: 0;
     margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .my-descr {
@@ -178,6 +108,7 @@ ul, ol {
     line-height: 24px;
     color: #595959;
 }
+
 
 /* -- Work experience -- */
 
@@ -265,13 +196,119 @@ ul, ol {
 }
 
 
+
+/* ----------Sidebar------------ */
+.sidebar {
+    background: #e0ebfe;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.sidebar-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* -----Contacts------- */
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts-type {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 24px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2979ff;
+}
+
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+/* ----Tech Skills------ */
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-titl {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 20px;
+}
+.skills-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+
+
 /* *--- ---* */
 
 @media screen and (max-width: 900px) {
     .wrapper {
         flex-direction: column;
+        padding: 15px;
+        margin: 0;
     }
+
     .sidebar {
         width: 100%;
+    }
+}    
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        flex-direction: column;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 0;
+    }
+
+    body {
+        padding: 15px;
     }
 }
