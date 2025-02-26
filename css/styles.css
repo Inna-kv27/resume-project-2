@@ -195,17 +195,18 @@ ol {
   margin-bottom: 12px;
 }
 
-.work-experience-company {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #292929;
-  margin-top: 0;
-  margin-bottom: 12px;
-}
-
 .company-name {
   color: #6d9bf5;
+  font-size: 16px;
+}
+
+.work-experience-company {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* color: #599af5; */
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .work-experience-period {
@@ -221,6 +222,7 @@ ol {
 
 .work-experience-duties-list {
   padding-left: 16px;
+  margin-bottom: 10px;
 }
 
 .work-experience-duties-item {
