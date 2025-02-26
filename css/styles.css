@@ -74,7 +74,7 @@ ol {
 .contacts-type {
   color: #161d2a;
   margin-right: 8px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* ----Tech Skills------ */
@@ -102,7 +102,7 @@ ol {
 /* ---------Main-content--------- */
 .main-content {
   padding-left: 88px;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 80px;
   box-sizing: border-box;
@@ -114,23 +114,23 @@ ol {
   margin-bottom: 40px;
 }
 
-.my-profession {
-  font-weight: 700;
-  line-height: 17px;
-  color: #292929;
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
 .my-name {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
   color: #292929;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
+}
+
+.my-profession {
+  font-weight: 700;
+  line-height: 17px;
+  color: #292929;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .my-descr {
@@ -163,10 +163,16 @@ ol {
 
 .project-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
+.project-wrapper-group {
+  display: block;
+}
+
 .my-project-item-link {
+  display: inline-block;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #595959;
