@@ -63,17 +63,16 @@ ol {
   color: #161d2a;
   line-height: normal;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .contacts-item {
-  margin-top: 0;
-  margin-bottom: 4px;
+  /* margin-top: 0; */
+  color: #161d2a;
 }
 
 .contacts-type {
   color: #161d2a;
-  margin-right: 8px;
   text-decoration: underline;
 }
 
@@ -89,7 +88,7 @@ ol {
   color: #161d2a;
   line-height: normal;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .skills-list {
@@ -130,7 +129,7 @@ ol {
   line-height: 17px;
   color: #292929;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .my-descr {
@@ -149,7 +148,7 @@ ol {
   line-height: 27px;
   color: #292929;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .my-projects-list {
@@ -194,7 +193,7 @@ ol {
   line-height: 27px;
   color: #292929;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .work-experience-container {
@@ -202,7 +201,7 @@ ol {
 }
 
 .company-name {
-  color: #6d9bf5;
+  color: #2b3342;
   font-size: 16px;
 }
 
@@ -210,7 +209,6 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* color: #599af5; */
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -242,31 +240,31 @@ ol {
   font-size: 22px;
   color: #292929;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .education-item {
   margin-bottom: 15px;
 }
 
-.education-item {
-}
-
 .education-company {
   font-weight: 700;
   font-size: 16px;
-  color: #6d9bf5;
-  margin-top: 0;
-  margin-bottom: 2px;
+  color: #2b3342;
+  margin: 0;
 }
 
 .education-profession {
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
 .education-period {
   font-size: 12px;
   color: #a8a8a8;
+  margin: 0;
+  padding: 0;
 }
 
 /* *--- ---* */
